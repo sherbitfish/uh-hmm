@@ -38,10 +38,10 @@ function game() {
 
 document.addEventListener("keydown", (e) => {
   keysPressed.push(e.key);
-  if (e?.which === 65) {objectList[0].x--}
-  if (e?.which === 68) {objectList[0].x++}
-  if (e?.which === 87) {objectList[0].y--}
-  if (e?.which === 83) {objectList[0].y++}
+  if (e?.which == 65) {objectList[0].x--}
+  if (e?.which == 68) {objectList[0].x++}
+  if (e?.which == 87) {objectList[0].y--}
+  if (e?.which == 83) {objectList[0].y++}
 });
 
 document.addEventListener("keyup", (e) => {
